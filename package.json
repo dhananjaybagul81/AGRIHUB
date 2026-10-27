@@ -1,0 +1,15 @@
+{
+  "name": "agrihub-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agrihub fertilizer and crop-protection storefront",
+  "author": "Dhananjay Bagul <dhananjaybagul81@gmaol.com>",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "check": "node --check server.js",
+    "test": "node --test tests/payments.test.cjs"
+  }
+}
